@@ -27,6 +27,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4fC-pV-dze" kind="show" id="Kia-ow-Fjd"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -40,19 +43,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3fu-Bc-Osl" secondAttribute="trailing" id="q8k-dv-q8E"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="jKK-QC-Yxe">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="uKL-Vo-HCx">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="8JM-dr-oLI">
-                                <rect key="frame" x="319" y="5" width="75" height="34.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                            <connections>
-                                <segue destination="4fC-pV-dze" kind="show" id="Lgv-Qp-ez7"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="jKK-QC-Yxe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
