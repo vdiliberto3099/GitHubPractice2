@@ -27,6 +27,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <accessibility key="accessibilityConfiguration" identifier="myCell"/>
                                         <connections>
                                             <segue destination="4fC-pV-dze" kind="show" id="Kia-ow-Fjd"/>
                                         </connections>
