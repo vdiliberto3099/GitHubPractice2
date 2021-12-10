@@ -21,12 +21,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-           <#code#>
+        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "myCell")!
+        cell.textLabel?.text = animals[indexPath.row]
+        return cell
        }
        
-       func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-           <#code#>
-       }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.animals.count
+    }
 
 }
 
